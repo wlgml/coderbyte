@@ -1,0 +1,14 @@
+def LongestWord(sen)
+
+  longest = sen.split.inject do |memo, word|
+   
+      memo.length > word.length ? memo : word
+  end
+  
+   return longest       
+
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+LongestWord(STDIN.gets)    
