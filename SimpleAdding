@@ -1,0 +1,13 @@
+def SimpleAdding(num)
+
+  # code goes here
+
+   array = 1.upto(num).to_a  
+   sum=0
+  
+  return  array.inject{|sum,x| sum + x }   
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+SimpleAdding(STDIN.gets)           
