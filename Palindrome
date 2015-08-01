@@ -1,0 +1,18 @@
+def Palindrome(str)
+
+  # code goes here
+  new_s = str.delete" "
+  if new_s.reverse == new_s
+    re =true
+  else
+    re =false
+  end
+  
+  return re
+
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+Palindrome(STDIN.gets)    
