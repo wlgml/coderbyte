@@ -1,0 +1,19 @@
+def ArithGeo(arr)
+
+   k=-1
+   i=0  
+  
+  
+    if arr[i+1]-arr[i] == arr[i+2]-arr[i+1]
+      k="Arithmetic"
+      elsif  arr[i+1]/arr[i] == arr[i+2]/arr[i+1]
+      k="Geometric"
+    else
+      k=-1
+    end
+
+  
+  return k
+         
+end
+   
